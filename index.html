@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1><center>JavaScript Test</center></h1>
+
+        <form id="quiz">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <label for="num" style="margin-left: 10%;">System Id: </label>
+            <input type="text" name="num" id="num" >
+            <label for="sec" style="margin-left: 10%;">Section: </label>
+            <input type="text" name="sec" id="sec" ><br><br>
+            <h3>Solve these Questions...</h3><br>
+            <p>Ques 1: Which type of JavaScript language is ___</p>
+            <input type="radio" name="ques1" value="A">
+            <label for="ques1">Object-Oriented</label><br>
+            <input type="radio" name="ques1" value="B">
+            <label for="ques1">Object-Based</label><br>
+            <input type="radio" name="ques1" value="C">
+            <label for="ques1">Assembly-language</label><br>
+            <input type="radio" name="ques1" value="D">
+            <label for="ques1">High-level</label><br><br>
+            <p>Ques 2:  The "function" and " var" are known as: </p>
+            <input type="radio" name="ques2" value="A">
+            <label for="ques2">Keywords</label><br>
+            <input type="radio" name="ques2" value="B">
+            <label for="ques2">Data types</label><br>
+            <input type="radio" name="ques2" value="C">
+            <label for="ques2">Declaration statements</label><br>
+            <input type="radio" name="ques2" value="D">
+            <label for="ques2">Prototypes</label><br><br>
+            <p>Ques 3: In JavaScript, what is a block of statement?</p>
+            <input type="radio" name="ques3" value="A">
+            <label for="ques3">Conditional block</label><br>
+            <input type="radio" name="ques3" value="B">
+            <label for="ques3">block that combines a number of statements into a single compound statement</label><br>
+            <input type="radio" name="ques3" value="C">
+            <label for="ques3">both conditional block and a single statement</label><br>
+            <input type="radio" name="ques3" value="D">
+            <label for="ques3">block that contains a single statement</label><br><br>
+            <p>Ques 4: In JavaScript the x === y statement implies that: </p>
+            <input type="radio" name="ques4" value="A">
+            <label for="ques4">Both x and y are equal in value, type and reference address as well.</label><br>
+            <input type="radio" name="ques4" value="B">
+            <label for="ques4">Both are x and y are equal in value only.</label><br>
+            <input type="radio" name="ques4" value="C">
+            <label for="ques4">Both are equal in the value and data type.</label><br>
+            <input type="radio" name="ques4" value="D">
+            <label for="ques4">Both are not same at all.</label><br><br>
+            <input type="submit" value="Submit" id="submit">  
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
